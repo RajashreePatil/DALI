@@ -17,7 +17,7 @@
 				"additionalOptions": ["Additional parsing option", "Additional parsing option"],
 				"includePaths":["path to the include directory", "path to the include directory"]
 			},
-			"dataDir": "c:\GAMMA_DATA",
+			"dataDir": "$GAMMA_DATA",
 			"modules": {
 				"codeissues": [{
 						"name": "cppcheck"
