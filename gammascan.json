@@ -9,7 +9,7 @@
 				"uid": "143d75ec495be1b3bdfeb20046c4bf71",
 				"projectName": "gamma",
 				"sources": {
-					"baseDir": "C:/path/to/the/gamma/source",
+					"baseDir": "$WORKSPACE",
 					"exclusions": ["exclusion_regex", "exclusion_regex"]
 				}
 			},
@@ -17,7 +17,7 @@
 				"additionalOptions": ["Additional parsing option", "Additional parsing option"],
 				"includePaths":["path to the include directory", "path to the include directory"]
 			},
-			"dataDir": "C:/path/to/the/datadir",
+			"dataDir": "c:\GAMMA_DATA",
 			"modules": {
 				"codeissues": [{
 						"name": "cppcheck"
