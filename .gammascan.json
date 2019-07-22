@@ -8,8 +8,8 @@
         {
             "dataDir": "",
             "repository": {
-                "uid": "b2ce8a79d2eddccc2c2a1ef223963ee5",
-                "projectName": "CPP",
+                "uid": "bc7b6f441ae1215c1e7e4783f1b2f64a",
+                "projectName": "DALI-cpp",
                 "languages": [
                     "CPP"
                 ],
@@ -70,9 +70,9 @@
                         }
                     }
                 ],
-                "coverage": [
+                "unittest": [
                     {
-                        "name": "gcov",
+                        "name": "gtest",
                         "enabled": true,
                         "config": {
                             "rules": [],
@@ -87,9 +87,9 @@
                         }
                     }
                 ],
-                "unittest": [
+                "coverage": [
                     {
-                        "name": "gtest",
+                        "name": "gcov",
                         "enabled": true,
                         "config": {
                             "rules": [],
